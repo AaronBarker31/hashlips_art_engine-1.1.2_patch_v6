@@ -5,12 +5,12 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Great Swords";
-const description = "Great Swords for adventurers";
-const baseUri = "ipfs://QmVvmkexDj4fnXhE3JWSoBHmbCpsVu6HH8a5yQgLwjVfg5";
+const namePrefix = "Mad Loot";
+const description = "Mad loot for hoarding adventurers";
+const baseUri = "ipfs://QmSrRtoA14cha86c4nfE6Ek2c4LTpzjk5FboYRyv3sPutQ";
 
 const solanaMetadata = {
-  symbol: "GS",
+  symbol: "ML",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
